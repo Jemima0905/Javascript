@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <title>contact</title>
+</head>
+<body>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="marketing.html">Sample 1</a>
+      <a href="sample.html">Sample 2</a>
+      <a href="icebreaker.html">Sample 3</a>
+      <a href="javascript.html">Syntax</a>
+      <a href="contact.html">Contact</a>
+</nav>
+<header>
+  <img src="pictures/jvascript logo 2.png" alt="logo" width="700" height="250" class="center1"></header>
+
+<div id="wrapper">
+<main>
+    <div class="container1">
+      <h2 class="text-center">Dont hesitate to ask!</h2>
+      <form  onsubmit="event.preventDefault(); validate();">
+        <form method="post">
+            <fieldset>
+                <!-- Legend tag -->
+                <div class="container">
+                  <header>
+                    <h2 class="text-center">Inquiry</h2>
+                  </header>
+                  <main>
+                    
+                    <form name="myForm" action="/submit.php" method="post">
+                      <p>
+                        Name: <input type="text" id="flname" size="65" name="Name" required/><br />
+                        <span id="flNameError" class="error"></span>
+                      </p>
+                      <br />
+                      <p>Address: <input type="text" id="hAddress" size="65" name="Address" /></p>
+                      <br />
+                      <p>E-mail Address: <input type="email" id="eAddress" size="65" name="EMail" required /></p>
+                      <br />
+                      <br />
+                      <p>Telephone: <input type="tel" id="pNum" size="65" name="Telephone" required/></p>
+                      <br />
+                
+                      <label for="jobChoice">How did you hear about us:</label>
+                      <select id="jobChoice" name="jobChoice" required>
+                        <option value="">Please select...</option>
+                        <option value="fb">facebook</option>
+                        <option value="ig">Instagram</option>
+                        <option value="yt">Youtube</option>
+                        <option value="web">Website</option>
+                        <option value="other">Other</option>
+                      </select>
+                      <hr />
+                
+                      <label for="comments">Comments:</label>
+                      <textarea cols="100" rows="10" name="comment" id="comments" required></textarea>
+                      <input type="submit" id="submitForm" onclick="validateForm()" value="send" name="Submit"required />
+                      <input type="button" onclick="resetForm()" value="Reset" name="Reset" required />
+                    </form>
+                  </main>
+                </div>
+          
+	</fieldset>
+</div>
+         
+      </form>
+    </main>
+    </div>
+  </div>
+  <footer>
+    <p>Author: Jemima Abellera</p>
+    <p><a href="mailto:example@example.com">example@example.com</a></p>
+  </footer>
+    <script src="js/main.js"></script>  
+</body>
+</html>
