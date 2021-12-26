@@ -35,15 +35,15 @@
          
                     <form name="myForm" action="/submit.php" method="post">
                       <p>
-                        Name: <input type="text" id="flname" size="50" name="Name" required />
+                        Name: <input type="text" id="flname" size="30" name="Name" required />
                         <span id="flNameError" class="error"></span>
                       </p>
                       
-                      <p>Address: <input type="text" id="hAddress" size="50" name="Address" /></p>
+                      <p>Address: <input type="text" id="hAddress" size="30" name="Address" /></p>
                       
-                      <p>E-mail Address: <input type="email" id="eAddress" size="50" name="EMail" required /></p>
+                      <p>E-mail Address: <input type="email" id="eAddress" size="30" name="EMail" required /></p>
                       
-                      <p>Telephone: <input type="tel" id="pNum" size="50" name="Telephone" required /></p>
+                      <p>Telephone: <input type="tel" id="pNum" size="30" name="Telephone" required /></p>
                       
                 
                       <label for="jobChoice">How did you hear about us:</label>
@@ -58,7 +58,7 @@
                       <hr />
                 
                       <label for="comments">Comments:</label>
-                      <textarea cols="50" rows="10" name="comment" id="comments" required></textarea>
+                      <textarea cols="30" rows="10" name="comment" id="comments" required></textarea>
                       <input type="submit" id="submitForm" onclick="validateForm()" value="send" name="Submit"required />
                       <input type="button" onclick="resetForm()" value="Reset" name="Reset" required />
                     </form>
