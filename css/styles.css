@@ -1,10 +1,11 @@
 
 body > header >img {
-					width:50%;
+					width: 100%;
 					height:auto;
 					display:block;
 					margin: auto;
 					padding: auto;
+					display: block;
 	
     }
 
@@ -19,7 +20,7 @@ body {
 		width: 50%;
 		height:auto;
   }
-  .error {
+.error {
 	width:auto;  
   } 
 .row {
@@ -30,6 +31,8 @@ body {
 			display: block;
 			margin-left: auto;
 			margin-right: auto;
+			width:auto;
+		
     
   }
   
