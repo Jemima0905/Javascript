@@ -28,8 +28,8 @@ body {
 .center1 {
 			display: block;
 			margin: auto;
-			width:100%;
-			height:auto;
+			width:auto;
+			height:50%;
 		
     
   }
@@ -52,7 +52,7 @@ body {
     padding: 1em;
     padding-top: .5em ; 
     margin: auto; 
-    width: 80%;
+    width: 100%;
 	height:auto;
 }
 nav  {  height: 1.7em;
