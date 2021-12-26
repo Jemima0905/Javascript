@@ -1,6 +1,6 @@
 
 body > header >img {
-				
+					
 					margin: auto;
 					padding: auto;
 					display: block;
@@ -28,8 +28,9 @@ body {
 .center1 {
 			display: block;
 			margin: auto;
-			width:auto;
-			height:50%;
+			width:50%;
+			height:auto;
+			
 		
     
   }
@@ -41,9 +42,10 @@ body {
   
  video {
 		display: block;
-		width: 100%;
+		width: 70%;
 		height:auto;
-
+		margin:auto;
+	
 }
 
 
@@ -52,16 +54,16 @@ body {
     padding: 1em;
     padding-top: .5em ; 
     margin: auto; 
-    width: 100%;
+    width: auto;
 	height:auto;
 }
 nav  {  height: 1.7em;
     background-color:#e75e35; /* nav back ground*/
     text-align:center;
     list-style-type: none;
-    font-size: 1.5 em;
-    padding-top: 2em;
-    padding-bottom: 3.5em;
+    font-size: 1.5em;
+    padding-top:2em;
+    padding-bottom:3.5em;
     display: block;
 	width:auto;
 	
