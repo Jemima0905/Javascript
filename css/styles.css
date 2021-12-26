@@ -52,7 +52,7 @@ body {
     padding: 1em;
     padding-top: .5em ; 
     margin: auto; 
-    width: auto;
+    width: 80%;
 	height:auto;
 }
 nav  {  height: 1.7em;
@@ -60,8 +60,8 @@ nav  {  height: 1.7em;
     text-align:center;
     list-style-type: none;
     font-size: 1.5 em;
-    padding-top: 1.5em;
-    padding-bottom: 2em;
+    padding-top: 2em;
+    padding-bottom: 3em;
     display: block;
 	width:auto;
 	
