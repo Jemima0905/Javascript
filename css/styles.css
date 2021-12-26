@@ -1,40 +1,47 @@
 
 body > header >img {
-    width:50%;
-    height:auto;
+					width:50%;
+					height:auto;
+					display:block;
+					margin: auto;
+					padding: auto;
+	
     }
 
 body {
-    background-color: #dcdfe0;
-    font-family : sans-serif;
+		background-color: #dcdfe0;
+		font-family : sans-serif;
 }
 .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-     height:auto;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
+		height:auto;
   }
-  .row {
-    display: flex;
+  .error {
+	width:auto;  
+  } 
+.row {
+		display: flex;
   }
 
-  .center1 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.center1 {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
     
   }
   
-  .column {
-    flex: 33.33%;
-    padding: 5px;
+ .column {
+			flex: 33.33%;
+			padding: 5px;
   }
+  
  video {
-display: block;
-float:right;
-width: 100%;
-height:auto;
+		display: block;
+		width: 100%;
+		height:auto;
 
 }
 
@@ -43,17 +50,20 @@ height:auto;
     background-color: #e75e35;
     padding: 1em;
     padding-top: .5em ; 
-    margin: 2em auto auto auto ; 
-    width: 80%;
+    margin: auto; 
+    width: auto;
+	height:auto;
 }
 nav  {  height: 1.7em;
     background-color:#e75e35; /* nav back ground*/
     text-align:center;
     list-style-type: none;
-    font-size: 1.5em;
-    padding-top: .5em;
-    padding-bottom: .5em;
+    font-size: 1.5 em;
+    padding-top: 1.5em;
+    padding-bottom: 2em;
     display: block;
+	width:auto;
+	
  }
 
  nav a { text-decoration: none; 
@@ -83,11 +93,14 @@ div#textintro1 > p {
     
 
     /*this is for the contact page*/
-.container1 {
+.container {
   display: inline-block;
   margin-left: auto;
   margin-right: auto;
   text-align: left;
+  width: auto;
+  height:100%;
+
 
   }
 .text-center {
